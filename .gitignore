@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Node modules (if you ever add JS tooling)
+node_modules/
+
+# Logs
+*.log
+
+# Others
+.env
