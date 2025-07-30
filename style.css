@@ -1,18 +1,30 @@
+@font-face {
+    font-family: BluePrint;
+    src: url(assets/fonts/block-blueprint-font/Blockblueprint-LV7z5.ttf);
+}
+
 * {
-    background-color:beige;
-    font-family:'Trebuchet MS';
+    background-color: #E9E3DF;
+    font-family: 'BluePrint', fantasy;
+    font-size: 25px;
 }
 
 h1 {
+    font-size: 2rem;
     text-align: center;
+    color: #FF7A30;
+    text-shadow: 3px 3px #465C88;
 }
 
 h2 {
+    font-size: 1.5rem;
     text-align: center;
+    color: #465C88;
+    text-shadow: 3px 3px #FF7A30;
 }
 
 img {
-    width: 40%;
+    width: 30%;
     text-align: center;
     border-radius: 10%;
     margin: auto;
@@ -21,4 +33,5 @@ img {
 
 .subtitle {
     text-align: center;
+    font-weight: bold;
 }
